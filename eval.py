@@ -144,7 +144,7 @@ def calculate_iqa_for_partition(output_folder, target_folder, output_files, devi
         output_image = Image.open(output_image_path)
 
         if target_folder is not None:
-            target_image_path = os.path.join(target_folder, output_file)
+            target_image_path = os.path.join(target_folder, target_file)
             assert os.path.exists(target_image_path), f"No such path: {target_image_path}"
 
             target_image = Image.open(target_image_path)
