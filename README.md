@@ -20,8 +20,8 @@ or
 ```bash
 (optional)export HF_ENDPOINT=https://hf-mirror.com
 huggingface-cli download --resume-download stabilityai/stable-diffusion-2-1-base --local-dir stable-diffusion-2-1-base
-```bash
-should put the "stable-diffusion-2-1-base" into "model_zoo"
+```
+should put the "stable-diffusion-2-1-base" into "model_zoo"!
 
 ### Select the model you would like to test:
 
