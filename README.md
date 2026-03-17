@@ -19,9 +19,9 @@ Select the model you would like to test:
 ```bash
 CUDA_VISIBLE_DEVICES=5 python test.py --test_dir /data0/wangzihao/nitremobsr/test --save_dir result/test --model_id 4
 
-### Command to calculate metrics
+Command to calculate metrics
 
-```sh
+```bash
 CUDA_VISIBLE_DEVICES=5 python eval.py \
 --output_folder "/data0/wangzihao/nitrewzh/result/test/0004_TODSR/test" \
 --target_folder "/data0/wangzihao/nitremobsr/HR" \
