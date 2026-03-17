@@ -15,12 +15,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ### Prepare SD model
 
-Download the pretrained SD-2.1-base models from [HuggingFace](https://huggingface.co/stabilityai/stable-diffusion-2-1-base).
-or 
-```bash
-(optional)export HF_ENDPOINT=https://hf-mirror.com
-huggingface-cli download --resume-download stabilityai/stable-diffusion-2-1-base --local-dir stable-diffusion-2-1-base
-```
+Download the pretrained SD-2.1-base models and lora adapters from (https://pan.baidu.com/s/1McOmHwzkQ7hYjQiWB7hfqQ?pwd=gb3v).
 should put the "stable-diffusion-2-1-base" into "model_zoo"!
 
 ### Select the model you would like to test:
