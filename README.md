@@ -18,7 +18,7 @@ Select the model you would like to test:
 
 ```bash
 CUDA_VISIBLE_DEVICES=5 python test.py --test_dir /data0/wangzihao/nitremobsr/test --save_dir result/test --model_id 4
-
+```
 Command to calculate metrics
 
 ```bash
@@ -29,16 +29,6 @@ CUDA_VISIBLE_DEVICES=5 python eval.py \
 --gpu_ids 0 \
 ```
 
-The `eval.py` file accepts the following 4 parameters:
-
-- `output_folder`: Path where the restored images are saved.
-- `target_folder`: Path to the HR images in the `test` dataset. This is used to calculate FR-IQA metrics.
-- `metrics_save_path`: Directory where the evaluation metrics will be saved.
-- `device`: Computation devices. For multi-GPU setups, use the format `0,1,2,3`.
-
-## Reference Code
-We provide a [reference implementation for checkpoint saving](./uitls/ref_ckpt_save.py), which we will use to reproduce participants’ experimental results.
-Participants may use our implementation as-is or modify it based on our reference code.
 
 ## License and Acknowledgement
 This code repository is release under [MIT License](LICENSE). 
