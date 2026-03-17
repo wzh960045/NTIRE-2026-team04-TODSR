@@ -1,1 +1,8 @@
+https://pan.baidu.com/s/1McOmHwzkQ7hYjQiWB7hfqQ?pwd=gb3v
 
+/model_zoo
+    /team04_TODSR
+        /model.pkl
+        /model_vae.pkl
+        /stable-diffusion-2-1-base
+              /...
